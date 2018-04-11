@@ -268,8 +268,7 @@
    * Hint: Do not declare a new function expression as an event handler.
    */
 
-  const setLight15Green = setMyLightClass.bind(btn15, event, 'light-green');
-  btn15.addEventListener('click', setLight15Green);
+  btn15.addEventListener('click', setMyLightClass.bind(btn15, null, 'light-green'));
 
 
 }(window));
