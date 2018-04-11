@@ -195,10 +195,10 @@
    * using the Function prototype method: bind
    * to set the context to the btn11 object
    *   passing 2 additional hardcoded arguments:
-   *     document.getElementById(btn1), 'light-green'
+   *     null, 'light-green'
    */
 
-  const setLight11Green = setMyLightClass.bind(btn11, document.getElementById(btn1), 'light-green');
+  const setLight11Green = setMyLightClass.bind(btn11, null, 'light-green');
 
   /*
    * Add a click event listener to btn11
